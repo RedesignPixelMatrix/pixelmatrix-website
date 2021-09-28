@@ -23,9 +23,11 @@
         <?php endif; ?>
 
          <!-- code for pre footer containing company contact details in footer area -->
-                <div class="container-fluid">
-                  <div class="row" style="background-color:rgba(10,85,136,0.9); display: flex;">
-                     <div class="col-6" style="max-width: 740px; margin-top: 60px;">
+               <!--  <div class="container-fluid" style="background-image: url(http://localhost/websites/pms-new/wp-content/uploads/2021/09/mission-bg.jpg?id=3974); !important;"> -->
+                <div class="container-fluid row-centered" style="background-image: url(http://localhost/websites/pixelmatrix-website/wp-content/uploads/2021/09/mission-bg.jpg?id=3974);!important;">
+                  <div class="row justify-content-md-center" style="background-color:rgba(10,85,136,0.9); display: flex;">
+
+                     <div class="col-sm-7" style="max-width: 100%; margin-top: 60px;">
                       <div class="row" style="margin-left: 100px;">
                          <img width="300" height="82" src="http://localhost/websites/pixelmatrix-website/wp-content/uploads/2021/09/logo-white.png" alt="Pixel Matrix" loading="lazy">
                       </div>
@@ -46,7 +48,7 @@
                          </div>
                       </div>
                     </div>
-                    <div class="col-6" style="max-width: 540px; margin-top:60px;">
+                    <div class="col-sm-5" style="max-width: 540px; margin-top:60px;">
                         <div class="row" style="margin-left: 90px;">
                             <h3 style="color: #ffffff;text-align: left">INDIA</h3>
                             <div style="display: flex;">
@@ -54,25 +56,24 @@
                                 <div><h5 style="color:#ffffff; margin-left: 20px"><span>1008-1010 AKIK Complex, Opp. Rajpath Club, S.G. Highway Bodakdev; Ahmedabad, Gujarat - 380054</span></h5></div>
                             </div>                           
                         </div>
-                        <div class="row" style="margin-left: 90px;margin-top: 30px;">
+                        <div class="row" style="margin-left: 90px;margin-top: 15px;">
                             <h3 style="color: #ffffff;text-align: left">CANADA</h3>
                             <div style="display: flex;">
-                                 <div style="width: 50px; height: 65px;"><i style="font-size:30px;color:#ffffff;font-weight: normal;" class="custom stmicon-pin_b"></i></div>
+                                 <div style="width: 50px; height: 30px;"><i style="font-size:30px;color:#ffffff;font-weight: normal;" class="custom stmicon-pin_b"></i></div>
                                 <div><h5 style="color:#ffffff;"><span>37, TALENCE DR, Hamilton, ON L8J 2T7</span></h5></div>
                             </div>                           
                         </div>
-                        <div class="row" style="margin-left: 90px; margin-top: 30px;">
+                        <div class="row" style="margin-left: 90px; margin-top: 15px;">
                             <h3 style="color: #ffffff;text-align: left">CONTACT</h3>
                             <div style="display: flex;">
-                                 <div style="width: 50px; height: 65px;"><i style="font-size:30px;color:#ffffff;font-weight: normal;" class="custom stmicon-phone_b"></i></div>
+                                 <div style="width: 50px; height: 40px;"><i style="font-size:30px;color:#ffffff;font-weight: normal;" class="custom stmicon-phone_b"></i></div>
                                 <div><h5 style="color:#ffffff;"><span>(+91) 87993 10568</span></h5></div>
-                            </div>                           
-                        </div>
+                            </div>                                                   </div>
                     </div>
                   </div>
             </div>
    <!-- End of code for Company Address Details in footer.php  -->
-
+        
         <?php get_template_part('partials/footer/player'); ?>
         <div class="stm-footer">
 			<?php get_template_part('partials/footer/main'); ?>
